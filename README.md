@@ -44,8 +44,19 @@ apt-get install -y zsh vim tmux htop ntop aria2 p7zip-full
 ```
 
 ##### Set `.vimrc`
-##### Set shell to `zsh`
-##### Install `oh-my-zsh`
+
+See the `.vimrc` in the repo.
+
+##### Set default shell to `zsh`
+##### Install [`oh-my-zsh`](https://github.com/robbyrussell/oh-my-zsh)
+
+Install,
+
+> ```bash
+> sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+> ```
+
+And set the theme.
 
 #### Server
 
