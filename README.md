@@ -16,13 +16,13 @@ passwd ${USER_NAME}
 ### Create its Home Directory:
 
 ```bash
-mkhomedir_helper username
+mkhomedir_helper ${USER_NAME}
 ```
 
 ### Adding it to `sudo` User Group
 
 ```bash
-usermod -aG sudo username
+usermod -aG sudo ${USER_NAME}
 ```
 
 ## Software Installation
